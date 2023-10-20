@@ -1,0 +1,88 @@
+body {
+	background-image: url(piano1.avif);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	min-height: 100vh;
+	background-color: #534340;
+}
+
+#playbox {
+	display: flex;
+	justify-content: center;
+}
+
+#header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #F6E7D8;
+	margin-top: 30px;
+	box-shadow: inset 0 0 6px;
+	width: 50%;
+	border-radius: 20px;
+	font-family: 'Caveat', cursive;
+	font-size: 30px;
+}
+
+#container {
+	width: 30%;
+	background-color: #F6E7D8;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	padding: 30px;
+	margin-top: 50px;
+	box-shadow: inset 0 0 6px;
+	border-radius: 20px;
+	font-family: 'Caveat', cursive;
+	font-size: 30px;
+}
+
+#help {
+	display: flex;
+	justify-content: center;
+}
+
+#guess {
+	padding: 10px;
+	font-family: 'Caveat', cursive;
+	font-size: 20px;
+	border-radius: 20px;
+	border-color: white;
+}
+
+#btn {
+	padding: 10px;
+	font-family: 'Caveat', cursive;
+	font-size: 30px;
+	border-radius: 20px;
+	background-color: #E3CAA5;
+	border-color: #534340;
+}
+
+@media all and (max-width:800px) {
+	#guess {
+		width: 80px;
+		padding: 5px;
+		font-size: 10px;
+	}
+	#btn {
+		padding: 5px;
+		font-size: 15px;
+	}
+	#container {
+		font-size: 20px;
+	}
+	#header {
+		font-size: 20px;
+	}
+}
+
+@media all and (max-width:500px) {
+	#guess {
+		width: 100px;
+		padding: 5px;
+		font-size: 10px;
+	}
+}
